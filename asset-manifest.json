@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/weather/static/css/main.f3bb5d22.css",
+    "main.js": "/weather/static/js/main.0c474d62.js",
+    "static/media/Pers_04_p10.jpg": "/weather/static/media/Pers_04_p10.993ef9b5ba1a37b129d4.jpg",
+    "index.html": "/weather/index.html",
+    "main.f3bb5d22.css.map": "/weather/static/css/main.f3bb5d22.css.map",
+    "main.0c474d62.js.map": "/weather/static/js/main.0c474d62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3bb5d22.css",
+    "static/js/main.0c474d62.js"
+  ]
+}
