@@ -1,38 +1,110 @@
 .App {
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
   text-align: center;
+  background-image: url('./Pers_04_p10.jpg');
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1{
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weather{
+    width: 25%;
+    margin: auto;
+    margin-top: 20px;
+    height: 500px;
+    padding: 2em;
+    background-color: rgb(23, 87, 129);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#current{
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: #42c4c4fa;
+  padding: 2em;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#weekly{
+  height: 200px;
+  width: 100%;
+  padding: 2em;
+  text-align: center;
+  background-color: #42c4c4fa;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+#search{
+  width: 90%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+#searchBar{
+  border-style: none;
+  border-radius: 5px;
+  padding: 0.6em;
+  border: 2px solid black;
+}
+#search-btn{
+  background-color: black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  border-style: none;
+  margin: auto;
+  height: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+#search-btn:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.7);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.highlow{
+  display: flex;
+  justify-content: space-around;
+}
+
+.forecast{
+  height: 70%;
+}
+
+img{
+  position: relative;
+}
+
+.forecast h3{
+  margin: 0;
+}
+
+.forecast h5{
+  margin: 0;
 }
